@@ -8,3 +8,4 @@ Write your changes here as you make it:
 6. Fixed main.py - neha
 7. fixed users.py - neha
 8. fixed quiz.py - neha
+9. fixed profile.js
