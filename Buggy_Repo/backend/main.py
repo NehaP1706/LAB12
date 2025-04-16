@@ -28,8 +28,6 @@ app.add_middleware(
 app.include_router(items_router, prefix="/items")
 app.include_router(analytics_router, prefix="/analytics")
 app.include_router(quiz_router, prefix="/quiz")
-app.include_router(analytics_router)
-app.include_router(quiz_router)
 app.include_router(users_router, prefix="/users")
 
 @app.get("/home")
