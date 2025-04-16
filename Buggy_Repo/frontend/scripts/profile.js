@@ -3,11 +3,11 @@ console.log("profile.js loaded");
 
 let searchTerm = ""; // Store the current search term
 
->>>>>>> 4327202bf5e3844fe25ec98ec74481cc22561477
 async function loadUsers() {
   console.log("loadUsers called, searchTerm:", searchTerm);
   try {
-    const res = await fetch("/users");
+    const res = await fetch(`${baseURL}/users`);
+
     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
     const users = await res.json();
     console.log("Users fetched:", users);
@@ -39,7 +39,8 @@ async function loadUsers() {
       deleteBtn.onclick = async () => {
         try {
           console.log("Deleting user:", user._id);
-          const res = await fetch(`/users/${user._id}`, { method: "DELETE" });
+          const res = await fetch(`${baseURL}/users/${user._id}`, { method: "DELETE" });
+
           if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
           loadUsers(); // Refresh with current search term
         } catch (error) {
