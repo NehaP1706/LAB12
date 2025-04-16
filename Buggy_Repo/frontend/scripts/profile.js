@@ -1,7 +1,11 @@
+<<<<<<< HEAD
 console.log("profile.js loaded");
 
 let searchTerm = ""; // Store the current search term
 
+=======
+const baseURL = "http://localhost:8000";
+>>>>>>> 0519fa3cdcecf79b334fb0fb6c17c597199fc38f
 async function loadUsers() {
   console.log("loadUsers called, searchTerm:", searchTerm);
   try {
