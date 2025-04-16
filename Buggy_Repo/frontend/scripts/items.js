@@ -24,8 +24,17 @@ async function loadItems(searchTerm = "") {
 }
 
 async function deleteItem(id) {
-  await fetch(`${baseURL}/items/${id}`, { method: "DELETE" });
-  loadItems(document.getElementById("search").value); 
+  try {
+    const response = await fetch(`${baseURL}/items/${id}`, {
+      method: "DELETE"
+    });
+    if (!response.ok) {
+      throw new Error(`Failed to delete item with id ${id}`);
+    }
+    loadItems(document.getElementById("search").value);
+  } catch (error) {
+    console.error("Error deleting item:", error);
+  }
 }
 
 document.getElementById("search").addEventListener("input", (e) => {
