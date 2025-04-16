@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class Item():
+class Item(BaseModel):  # Added BaseModel inheritance
     name: int
     description: str
 
