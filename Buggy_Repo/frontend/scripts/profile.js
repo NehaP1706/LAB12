@@ -1,5 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 console.log("profile.js loaded");
+=======
+console.log("profile.js loaded");
+
+let searchTerm = ""; // Store the current search term
+>>>>>>> 4986025e902d17e4b0945984f594e9b789d5fbe4
 
 let searchTerm = ""; // Store the current search term
 
