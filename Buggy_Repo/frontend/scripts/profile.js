@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 const baseURL = "http://localhost:8000";
-=======
 console.log("profile.js loaded");
 
 let searchTerm = ""; // Store the current search term
 
->>>>>>> 607d341b903b39cb99d4b1fc288195ebcda075b5
 async function loadUsers() {
   console.log("loadUsers called, searchTerm:", searchTerm);
   try {
@@ -61,31 +58,6 @@ async function loadUsers() {
   }
 }
 
-<<<<<<< HEAD
-document.getElementById("search").addEventListener("input", async (e) => {
-  const term = e.target.value.toLowerCase();
-  const res = await fetch(`${baseURL}/users`);
-  const users = await res.json();
-  const list = document.getElementById("userList");
-  list.innerHTML = "";
-
-  const filteredUsers = users.filter(user => user.username.toLowerCase().includes(term));
-  document.getElementById("userCount").textContent = `Total users: ${filteredUsers.length}`;
-
-  filteredUsers.forEach(user => {
-    const li = document.createElement("li");
-    li.textContent = `${user.username}: ${user.bio}`;
-
-    const deleteBtn = document.createElement("button");
-    deleteBtn.textContent = "Delete";
-    deleteBtn.onclick = async () => {
-      await fetch(`/users/${user._id}`, { method: "DELETE" });
-      loadUsers();
-    };
-
-    li.appendChild(deleteBtn);
-    list.appendChild(li);
-=======
 // Search input event listener
 const searchElement = document.getElementById("search");
 if (searchElement) {
@@ -93,7 +65,6 @@ if (searchElement) {
     searchTerm = e.target.value;
     console.log("Search input:", searchTerm);
     loadUsers();
->>>>>>> 607d341b903b39cb99d4b1fc288195ebcda075b5
   });
 } else {
   console.error("search element not found");

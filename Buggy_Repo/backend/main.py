@@ -16,15 +16,26 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Configure CORS
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5500", "http://localhost:8000"], # Frontend URLs
+    allow_credentials=True,
+    allow_methods=["GET", "POST", "DELETE"],
+    allow_headers=["*"],
+)
+
 app.include_router(items_router, prefix="/items")
-<<<<<<< HEAD
 app.include_router(analytics_router, prefix="/analytics")
 app.include_router(quiz_router, prefix="/quiz")
-=======
 app.include_router(analytics_router)
 app.include_router(quiz_router)
 app.include_router(users_router, prefix="/users")
->>>>>>> 607d341b903b39cb99d4b1fc288195ebcda075b5
+app.include_router(analytics_router, prefix="/analytics")
+app.include_router(quiz_router, prefix="/quiz")
+app.include_router(analytics_router)
+app.include_router(quiz_router)
+app.include_router(users_router, prefix="/users")
 
 @app.get("/home")
 async def get_home():

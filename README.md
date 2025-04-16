@@ -1,9 +1,8 @@
 Write your changes here as you make it:
 
 1. Added CSS
-2. Added the navigation bar in analytics.html - neha
+2. Added the navigation bar in analytics.html
 3. Added BaseModel inheritance in models.py
-<<<<<<< HEAD
 4. added plot in json struct of analytics.py - neha
 5. update the path of profile.js in profile.html
 6. Added route to quiz and fixed routes of quiz everywhere - neha
@@ -12,7 +11,4 @@ Write your changes here as you make it:
 9. made post to delete and application/html to application/json in items.js - ananya
 10. fixed users.py: made the post to get and fixed the delete route too - neha
 11. added const base local host 8000 in every js file start except for home.js - ananya
-=======
-4. added plot in json struct of analytics.py
-5. change metacharset to utf-8 coding 
->>>>>>> 607d341b903b39cb99d4b1fc288195ebcda075b5
+
