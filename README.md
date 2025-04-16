@@ -36,15 +36,16 @@
 | 2   |     changed http to https in news.js                                     |       2024101016       |         2024101016     |
 | 3   |      update the path of profile.js in profile.html                                    |     2024101016           |     2024101016          |
 | 4   |         Added BaseModel inheritance in models.py                                 |         2024101016        |    2024101016            |
-| 5   |                                          |               |              |
-| 6   |                                          |               |              |
-| 7   |                                          |               |              |
-| 8   |                                          |               |              |
-| 9   |                                          |               |              |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
+| 5   |        made all js files to const local base 8000                                       |   2024101036            |  2024101036        |
+| 4   |     made the post method delete in items.js                                  |       2024101036        |    2024101036       |
+| 6   |     dummy string removal in analytics.py                                     |       202411502       |     202411502         |
+| 7   |     resolving 404 error for users.py                                    |     202411502          |     202411502         |
+| 8   |      added hrer for quiz.html                                    |       2024101088        |   2024101088           |
+| 9   |      fixed items.html added container                              |    2024101088           |  2024101088            |
+| 10  |      added navigation bar in analytics.html                                   |    2024101058           |    2024101058          |
+| 11  |      added plot in json struct analytics.py                                   |     2024101058          |     2024101058         |
+| 12  |      fixed main.py ot make it fast api                                    |      2024101058         |     2024101058         |
+| 13  |      fixed user.py changed post to get                                    |      2024101058         |      2024101058        |
 | 14  |                                          |               |              |
 | 15  |                                          |               |              |
 | 16  |                                          |               |              |
