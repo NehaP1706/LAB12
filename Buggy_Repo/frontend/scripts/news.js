@@ -65,20 +65,11 @@ async function loadNews(searchTerm = "", source = "all", reset = false) {
   }
 }
 
-
-loadNews();
-<<<<<<< HEAD
-=======
-
 document.getElementById("search").addEventListener("input", () => {
   const search = document.getElementById("search").value;
   const source = document.getElementById("source").value;
   loadNews(search, source, true);
 });
 
-document.getElementById("source").addEventListener("change", () => {
-  const search = document.getElementById("search").value;
-  const source = document.getElementById("source").value;
-  loadNews(search, source, true);
-}); 
->>>>>>> b69ab70afc15c56de28a5d32ffee5783c2601c4e
+loadNews();
+
