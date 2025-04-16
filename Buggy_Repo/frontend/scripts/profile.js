@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 const baseURL = "http://localhost:8000";
 console.log("profile.js loaded");
 
