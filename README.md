@@ -38,21 +38,21 @@
 | 4   |         Added BaseModel inheritance in models.py                                 |         2024101016        |    2024101016            |
 | 5   |        made all js files to const local base 8000                                       |   2024101036            |  2024101036        |
 | 4   |     made the post method delete in items.js                                  |       2024101036        |    2024101036       |
-| 6   |     dummy string removal in analytics.py                                     |       202411502       |     202411502         |
-| 7   |     resolving 404 error for users.py                                    |     202411502          |     202411502         |
+| 6   |     dummy string removal in analytics.py                                     |       2024115012       |     2024115012         |
+| 7   |     resolving 404 error for users.py                                    |     2024115012          |     2024115012         |
 | 8   |      added hrer for quiz.html                                    |       2024101088        |   2024101088           |
 | 9   |      fixed items.html added container                              |    2024101088           |  2024101088            |
 | 10  |      added navigation bar in analytics.html                                   |    2024101058           |    2024101058          |
 | 11  |      added plot in json struct analytics.py                                   |     2024101058          |     2024101058         |
 | 12  |      fixed main.py ot make it fast api                                    |      2024101058         |     2024101058         |
 | 13  |      fixed user.py changed post to get                                    |      2024101058         |      2024101058        |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
-| 16  |                                          |               |              |
-| 17  |                                          |               |              |
-| 18  |                                          |               |              |
-| 19  |                                          |               |              |
-| 20  |                                          |               |              |
+| 14  |      fixed redundant code in main.py                                     |     2024115012          |     2024115012         |
+| 15  |         changed name: int → name: str in the Item class of models.py                                 |  2024115012             |      2024115012        |
+| 16  |        added cors middleware in main.py                                  |     2024101088          |    2024101088          |
+| 17  |        application/html to application/json in items.js                                 |    2024101036           |    2024101036          |
+| 18  |        Fixed missing users router by including users_router with /users prefix in                         |     2024101036          |    2024101036          |
+| 19  |        Fixed bug in quiz endpoint: Returning correct question based on ID in quiz.js                       |    2024101088           |    2024101088     |
+| 20  |        fix quiz.py by using pydantic instead of json                                  |     2024101058          |     2024101058         |
 | 21  |                                          |               |              |
 | 22  |                                          |               |              |
 | 23  |                                          |               |              |
