@@ -53,7 +53,7 @@
 | 18  |        Fixed missing users router by including users_router with /users prefix in                         |     2024101036          |    2024101036          |
 | 19  |        Fixed bug in quiz endpoint: Returning correct question based on ID in quiz.js                       |    2024101088           |    2024101088     |
 | 20  |        fix quiz.py by using pydantic instead of json                                  |     2024101016          |     2024101016         |
-| 21  |                                          |               |              |
+| 21  |         removed unnecsory file home.js                                 |      2024101058         |   2024101058           |
 | 22  |                                          |               |              |
 | 23  |                                          |               |              |
 | 24  |                                          |               |              |
