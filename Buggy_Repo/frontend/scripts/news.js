@@ -1,3 +1,4 @@
+const baseURL = "http://localhost:8000";
 const rssConverter = "https://api.rss2json.com/v1/api.json?rss_url=";
 const feeds = [
   { name: "bbc", url: "https://feeds.bbci.co.uk/news/world/rss.xml" }, //changed http to https
