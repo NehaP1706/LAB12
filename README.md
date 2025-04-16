@@ -26,7 +26,12 @@
 
 ### Add the names of the members and roll numbers of your team below
 
-- Name : Roll Number
+- Name : Neha Prabhu, Roll Number: 2024101058
+- Name: Priyanka Agarwal, Roll Number: 2024101016
+- Name: Poojitha J, Roll Number: 2024101088
+- Name: Saanvi Jain, Roll Number: 2024115012
+
+- 
 
 ### Table to keep track
 
