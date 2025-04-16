@@ -34,7 +34,7 @@
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
 | 2   |     changed http to https in news.js                                     |       2024101016       |         2024101016     |
-| 3   |                                          |               |              |
+| 3   |      update the path of profile.js in profile.html                                    |     2024101016           |     2024101016          |
 | 4   |                                          |               |              |
 | 5   |                                          |               |              |
 | 6   |                                          |               |              |
