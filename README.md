@@ -1,16 +1,64 @@
-Write your changes here as you make it:
+### Fixing the Buggy Code
 
-1. Added CSS
-2. Added the navigation bar in analytics.html - neha
-3. Added BaseModel inheritance in models.py
-4. added plot in json struct of analytics.py - neha
-5. update the path of profile.js in profile.html
-6. Added route to quiz and fixed routes of quiz everywhere - neha
-7. fixed url (http to https) in news.js
-8. made the main.py accept it as a fastapi application - neha
-9. made post to delete and application/html to application/json in items.js - ananya
-10. fixed users.py: made the post to get and fixed the delete route too - neha
-11. added const base local host 8000 in every js file start except for home.js - ananya
-12. fixed redundant code in main.py
-13. changed name: int → name: str in the Item class of models.py
-14. Update all fetch URLs to use baseURL in profile.js
+- This code has 30 issues out of which 1 is no code in style.css . 
+- The total marks for the entire codebase is 40, some issues have more marks than the other one. Style.css is of 5 marks. It will get scaled down to 20. All team members will get equal marks.
+- You are suppose to work in teams of 4 or 5
+- Each team member has to identify atleast 4 issues and fix atleast 4 issue. If someone doesn't do this, their marks get deducted.
+- You are suppose to work on a git repository as collaborators
+
+### What kind of bugs are there
+
+- Bugs which will break your code
+- Bugs might be a single word
+- Bugs might be section of removed code
+- Bugs might be section of unnecessary code
+- Bugs might be useless files
+- Bugs might be in the UI/UX of the pages
+- Bugs might be in the api calls
+- Bugs might be in the dependencies  
+
+### submission format
+
+- Make submissions on moodle
+- Do not remove .git folder 
+- Only 1 submission per team
+- Submit it as Corrected_Code.zip
+
+### Add the names of the members and roll numbers of your team below
+
+- Name : Roll Number
+
+### Table to keep track
+
+| ID  | Issue Description                        | Identified By | Fixed By     |
+|-----|------------------------------------------|---------------|--------------|
+| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
+| 2   |     changed http to https in news.js                                     |       2024101016       |         2024101016     |
+| 3   |                                          |               |              |
+| 4   |                                          |               |              |
+| 5   |                                          |               |              |
+| 6   |                                          |               |              |
+| 7   |                                          |               |              |
+| 8   |                                          |               |              |
+| 9   |                                          |               |              |
+| 10  |                                          |               |              |
+| 11  |                                          |               |              |
+| 12  |                                          |               |              |
+| 13  |                                          |               |              |
+| 14  |                                          |               |              |
+| 15  |                                          |               |              |
+| 16  |                                          |               |              |
+| 17  |                                          |               |              |
+| 18  |                                          |               |              |
+| 19  |                                          |               |              |
+| 20  |                                          |               |              |
+| 21  |                                          |               |              |
+| 22  |                                          |               |              |
+| 23  |                                          |               |              |
+| 24  |                                          |               |              |
+| 25  |                                          |               |              |
+| 26  |                                          |               |              |
+| 27  |                                          |               |              |
+| 28  |                                          |               |              |
+| 29  |                                          |               |              |
+| 30  |                                          |               |              |
