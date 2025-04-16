@@ -1,6 +1,6 @@
 const rssConverter = "https://api.rss2json.com/v1/api.json?rss_url=";
 const feeds = [
-  { name: "bbc", url: "http://feeds.bbci.co.uk/news/world/rss.xml" },
+  { name: "bbc", url: "https://feeds.bbci.co.uk/news/world/rss.xml" }, //changed http to https
   { name: "guardian", url: "https://www.theguardian.com/international/rss" }
 ];
 let allArticles = [];
