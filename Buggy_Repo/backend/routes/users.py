@@ -4,7 +4,6 @@ from bson import ObjectId
 
 router = APIRouter()
 
-@router.get("/items")
 async def get_users_collection():
     from db import init_db
     return init_db()["users_collection"]
