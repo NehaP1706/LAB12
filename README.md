@@ -11,5 +11,3 @@ Write your changes here as you make it:
 9. made post to delete and application/html to application/json in items.js - ananya
 10. fixed users.py: made the post to get and fixed the delete route too - neha
 11. added const base local host 8000 in every js file start except for home.js - ananya
-
->>>>>>> 4327202bf5e3844fe25ec98ec74481cc22561477
