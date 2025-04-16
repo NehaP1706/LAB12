@@ -8,3 +8,4 @@ Write your changes here as you make it:
 6. Added route to quiz and fixed routes of quiz everywhere
 7. fixed url (http to https) in news.js
 8. made the main.py accept it as a fastapi application
+9. made post to delete and application/html to application/json in items.js - ananya
