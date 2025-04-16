@@ -4,6 +4,4 @@ Write your changes here as you make it:
 2. Added the navigation bar in analytics.html
 3. Added BaseModel inheritance in models.py
 4. added plot in json struct of analytics.py
-5. update the path of profile.js in profile.html
-6. Added route to quiz and fixed routes of quiz everywhere
-7. fixed url (http to https) in news.js
+5. change metacharset to utf-8 coding 
