@@ -10,3 +10,4 @@ Write your changes here as you make it:
 8. made the main.py accept it as a fastapi application - neha
 9. made post to delete and application/html to application/json in items.js - ananya
 10. fixed users.py: made the post to get and fixed the delete route too - neha
+11. added const base local host 8000 in every js file start except for home.js - ananya
