@@ -16,15 +16,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Configure CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["http://localhost:5500", "http://localhost:8000"], # Frontend URLs
-    allow_credentials=True,
-    allow_methods=["GET", "POST", "DELETE"],
-    allow_headers=["*"],
-)
-
 app.include_router(items_router, prefix="/items")
 app.include_router(analytics_router, prefix="/analytics")
 app.include_router(quiz_router, prefix="/quiz")
